@@ -1,0 +1,77 @@
+- Default Category
+ - Diabetes
+  - Teststrips
+  - Startset / bloedglucosemeters
+  - Pennaalden
+  - Lancetten
+  - Prikpennen
+  - Insulinepennen
+  - Controlevloeistof
+  - Pomp infusiesets
+  - Pomp onderdelen
+  - Pomp tasjes
+  - Urine teststrips
+  - Batterijen
+  - Koeltasjes
+  - Naaldcontainers
+  - Software
+  - Overig
+ - Incontinentie
+  - Broekluier
+  - Fixatiebroekjes
+  - Fixatiebroekjes wasbaar
+  - Ondergoedluier
+  - Ondergoedluier wasbaar
+  - Onderleggers
+  - Onderleggers wasbaar
+  - Baby / kind luiers
+  - Inlegverbanden
+  - Huidverzorging
+  - Wascreme
+  - Overig
+  - Accesoires & overig incontinentie
+ - Afvoerend
+  - Eenmalige katheter kind
+  - Eenmalige katheter man
+  - Eenmalige katheter vrouw
+  - Externe katheter
+  - Fixatiehulp retentie
+  - Opvangzakken
+  - Spoelvloeistoffen
+  - Urinaal
+  - Verblijfskatheter kind
+  - Verblijfskatheter man
+  - Verblijfskatheter man/vrouw
+  - Verblijfskatheter vrouw
+  - Katheterset
+  - Rectaalkatheter
+  - Overig
+ - Wondzorg
+  - Alginaatverbanden
+  - Gaas & wondkompressen
+  - Hydrocolloidverbanden
+  - Schuimverbanden
+  - Siliconenverbanden
+  - Wondfolie
+  - Zilververbanden
+  - Wondverbanden overig
+  - Windsels & zwachtels
+  - Fixatie & opvulmateriaal wondzorg
+  - Hechtpleisters
+  - Pleisters
+  - Oogpleisters
+  - Steun & compressietherapie
+  - Bandages, braces & sport
+  - Handschoenen
+  - Overig
+ - Voeding
+  - Drinkvoeding energieverrijkt
+  - Drinkvoeding energie & eiwitverrijkt
+  - Pudding
+  - Sonde/drinkvoeding
+  - Sondevoeding
+  - Sondevoedingsmaterialen
+  - Voeding in poedervorm
+  - Voeding kinderen
+  - Zuigelingenvoeding
+  - Overige voeding
