@@ -5,15 +5,15 @@ ini_set('display_errors', 1);
 umask(0);
 
 // mage setup
-require_once dirname(__FILE__).'/../app/Mage.php';
+require_once './app/Mage.php';
 Mage::app()->setCurrentStore(Mage_Core_Model_App::ADMIN_STORE_ID);
 
 
 // input values
-define('CATEGORY_ID', 4);
-define('PRODUCT_QTY', 15);
+define('CATEGORY_ID', 20);
+define('PRODUCT_QTY', 20);
 define('IMAGES_PER_PRODUCT', 1);
-define('LIPSUM_API', 'http://json-lipsum.appspot.com/?amount=%d&what=bytes&start=no');
+define('LIPSUM_API', 'https://baconipsum.com/api/?type=meat-and-filler&format=text');
 define('IMAGE_API', 'http://lorempixel.com/700/700/technics/');
 
 // make an array with all websites
@@ -24,11 +24,11 @@ foreach (Mage::app()->getWebsites() as $website)
 
 for ($i = 0; $i < PRODUCT_QTY; $i++)
 {
-	$dummy_text 		= json_decode(file_get_contents(sprintf(LIPSUM_API, 500+$i)), true);
-	$dummy_title 		= substr($dummy_text['lipsum'], 0, 30); 
-	$dummy_shortdescr 	= substr($dummy_text['lipsum'], 31, 220); 
-	$dummy_descr 		= substr($dummy_text['lipsum'], 221); 
-	$dummy_sku 			= substr(str_shuffle('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'), 0, 10); 
+	$dummy_text 		= file_get_contents(LIPSUM_API);
+	$dummy_title 		= substr($dummy_text, 0, 30); 
+	$dummy_shortdescr 	= substr($dummy_text, 31, 220); 
+	$dummy_descr 		= substr($dummy_text, 221); 
+	$dummy_sku 		= substr(str_shuffle('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'), 0, 10); 
 	
 	$rand_price 		= rand(10, 999);
 	$cost_price 		= rand(10, ($rand_price/2));
@@ -61,7 +61,7 @@ for ($i = 0; $i < PRODUCT_QTY; $i++)
 	
 	$product->setStockData(array( 
 		'is_in_stock' => 1, 
-		'qty' => 99,
+		'qty' => 1000,
 		'manage_stock' => 1,
 	)); 
 	
