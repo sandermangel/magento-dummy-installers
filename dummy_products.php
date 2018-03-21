@@ -14,7 +14,7 @@ define('CATEGORY_ID', 20);
 define('PRODUCT_QTY', 20);
 define('IMAGES_PER_PRODUCT', 1);
 define('LIPSUM_API', 'https://baconipsum.com/api/?type=meat-and-filler&format=text');
-define('IMAGE_API', 'http://lorempixel.com/700/700/technics/');
+define('IMAGE_API', 'https://picsum.photos/700/700/?random');
 
 // make an array with all websites
 $website_ids = array();
