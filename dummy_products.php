@@ -50,7 +50,7 @@ for ($i = 0; $i < PRODUCT_QTY; $i++)
 		'type_id'			=> Mage_Catalog_Model_Product_Type::TYPE_SIMPLE,
 		'tax_class_id'		=> 2,
 		'attribute_set_id'	=> 4,
-		'category_ids'		=> array_rand($categoy_ids, random_int(1,4)),
+		'category_ids'		=> array_rand($categoy_ids, random_int(1,20)),
 		'website_ids'		=> $website_ids,
 	));
 	
