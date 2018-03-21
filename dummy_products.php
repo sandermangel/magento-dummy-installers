@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 umask(0);
 
 // mage setup
-require_once './app/Mage.php';
+require_once dirname(__FILE__).'/../app/Mage.php';
 Mage::app()->setCurrentStore(Mage_Core_Model_App::ADMIN_STORE_ID);
 
 
