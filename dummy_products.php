@@ -11,7 +11,7 @@ Mage::app()->setCurrentStore(Mage_Core_Model_App::ADMIN_STORE_ID);
 
 // input values
 define('CATEGORY_ID', 20);
-define('PRODUCT_QTY', 20);
+define('PRODUCT_QTY', $_SERVER['argv'][1]?:20 ); // you can specify the quantity of products as commandline parameter
 define('IMAGES_PER_PRODUCT', 1);
 define('LIPSUM_API', 'https://baconipsum.com/api/?type=meat-and-filler&format=text');
 define('IMAGE_API', 'http://lorempixel.com/700/700/technics/');
