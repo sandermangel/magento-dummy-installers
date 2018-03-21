@@ -99,4 +99,12 @@ for ($i = 0; $i < PRODUCT_QTY; $i++)
 	} catch (Exception $e) {
 		echo "ERROR: {$e}\n";
 	}
+	
+	if (isset($_SERVER['TERM'])) {
+		echo ".";
+        }	
+}
+
+if (isset($_SERVER['TERM'])) {
+	echo "\n";
 }
